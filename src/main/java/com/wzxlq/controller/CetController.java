@@ -61,8 +61,8 @@ public class CetController {
     @GetMapping("tingLiSixOne")
     public TingLi tingLiSixOne(String title){
         System.out.println(title);
-         TingLi tl = (TingLi)redisTemplate.opsForHash().get("cet6",title);
+        TingLi tl = (TingLi)redisTemplate.opsForHash().get("cet6",title);
         System.out.println(tl.getTitle());
-         return tl;
+        return tl;
     }
 }
