@@ -12,6 +12,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class wxUser {
+    /**
+     * openid 微信openid
+     * nickname 微信名
+     * sex 性别
+     * province 省份
+     * city 城市
+     */
     private String openid;
     private String nickname;
     private String sex;
