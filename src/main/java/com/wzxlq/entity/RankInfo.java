@@ -12,6 +12,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class RankInfo {
+    /**
+     * rank 排名
+     * wordCount 单词总数
+     * dailyCount 今日总数
+     * isTixing 是否提醒背单词
+     */
     private Long rank;
     private int wordCount;
     private int dailyCount;
